@@ -1,4 +1,3 @@
-// Data dari response API
 let productBin = {
     "requestId": null,
     "data": [
@@ -36,17 +35,15 @@ let productBin = {
     "message": "success"
   };
   
-  // Variabel untuk menyimpan total quantity
   let totalQuantity = 0;
   
-  // Product code yang ingin dicek
   let targetProductCode = "FBR00040101";
   
-  // Loop melalui semua data
+
   productBin.data.forEach((item) => {
-    // Cek apakah productCode sesuai dengan target
+
     if (item.productCode === targetProductCode) {
-      totalQuantity += item.quantity; // Tambahkan quantity ke total
+      totalQuantity += item.quantity;
     }
   });
   
