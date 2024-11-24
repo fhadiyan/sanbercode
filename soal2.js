@@ -47,6 +47,5 @@ let productBin = {
     }
   });
   
-  // Tampilkan hasilnya
   console.log(`Total quantity untuk productCode "${targetProductCode}" adalah: ${totalQuantity}`);
   
