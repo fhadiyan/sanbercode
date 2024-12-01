@@ -8,3 +8,7 @@ package.json
 
 # Temp files
 *.tmp
+
+Tugas API Automation/
+mochawesome-report/
+assets
