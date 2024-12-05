@@ -9,6 +9,9 @@ package.json
 # Temp files
 *.tmp
 
+cypress.config.js
+cypress/
+
 Tugas API Automation/
 mochawesome-report/
 assets
