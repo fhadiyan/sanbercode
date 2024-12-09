@@ -4,6 +4,7 @@ describe('Login', () => {
     cy.visit('https://www.saucedemo.com');
     cy.url().should('eq', 'https://www.saucedemo.com/');
     cy.get('#user-name').should('be.visible');
+    cy.get('#login-button').should('be.visible');
   });
 
     it('Should Show Error when Not Input Username and Not Input Password', () => {
