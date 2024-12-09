@@ -12,6 +12,10 @@ package.json
 cypress.config.js
 cypress/
 
+!cypress/e2e/
+
 Tugas API Automation/
 mochawesome-report/
 assets
+
+Tugas Cypress/
