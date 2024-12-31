@@ -19,3 +19,5 @@ mochawesome-report/
 assets
 
 Tugas Cypress/
+
+test/pageobjects/
